@@ -1,4 +1,4 @@
-Exercícios resolvidos da Python Brasil
+# Exercícios resolvidos da Python Brasil
 
 Nesse repositório, vou colocar as resoluções dos exercícios da Python Brasil.
 
