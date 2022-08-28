@@ -2,7 +2,7 @@
 
 Nesse repositório, irei colocar as resoluções dos exercícios da Python Brasil.
 
-1. Estrutura Sequencial
+1. [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
 2. Estrutura de Decisão
 3. Estrutura de Repetição
 4. Exercícios de Listas
