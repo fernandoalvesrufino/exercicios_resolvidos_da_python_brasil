@@ -3,7 +3,7 @@
 Nesse repositório, irei colocar as resoluções dos exercícios da _Python Brasil_.
 
 - [x] 1. [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
-- [ ] 2. [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
+- [x] 2. [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
 - [ ] 3. [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao)
 - [ ] 4. [Exercícios de Listas](https://wiki.python.org.br/ExerciciosListas)
 - [ ] 5. [Exercícios de Funções](https://wiki.python.org.br/ExerciciosFuncoes)
