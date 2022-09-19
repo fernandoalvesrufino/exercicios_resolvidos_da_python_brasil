@@ -1,4 +1,4 @@
-# Exercício 38 - Um funcionário de uma empresa recebe aumento salarial anualmente: Sabe-se que:
+# Exercício 38 - Um funcionário de uma empresa recebe aumento salarial anualmente. Sabe-se que:
 
 # - Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00;
 # - Em 1996 recebeu aumento de 1,5% sobre seu salário inicial;
@@ -8,9 +8,8 @@
 salario = float(input('Informe o salário inicial: R$ '))
 porc = 1.5
 salario_1 = salario + (salario * (porc / 100))
-print(f'R$ {salario_1:.2f}')
+print(f'Salário em 1996: R$ {salario_1:.2f}')
 tempo = 2022 - 1997
-print(f'{tempo} anos')
 
 for i in range(tempo + 1):
   porc = porc * 2
