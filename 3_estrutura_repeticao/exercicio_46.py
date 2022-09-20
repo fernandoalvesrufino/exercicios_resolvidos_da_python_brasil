@@ -4,9 +4,7 @@
 # a média). Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução, portanto não são ordenados. O programa deve ser encerrado 
 # quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
 
-from typing import List
-
-atleta = []
+atletas = []
 media_salto = []
 nome = 'Start'
 contagem = ['Primeiro', 'Segundo', 'Terceiro', 'Quarto', 'Quinto']
@@ -18,51 +16,47 @@ while True:
     maior = 0
     nome = input('Atleta: ')
     print()
-    if nome == '':
+    if nome == '' or nome == ' ':
         break
     else:
-        atleta.append(nome)
-        media = 0
-        salto_do_atleta = 0
+        salto.clear()                                       # Zera os valores dos saltos
+        atletas.append(nome)                                # Adiciona o nome do atleta a lista de nomes
+        media = 0                                           # zera a media dos saltos
 
-        for i in range(5):
-            distancia_salto = float(input(f'{contagem[i]} salto: '))
-            salto.append(distancia_salto)
-        for s in range(len(salto)):
-            if salto[s] > maior:
-                maior = salto[s]
-            if salto[s] < menor:
-                menor = salto[s]
-        salto.remove(maior)
-        salto.remove(menor)
+        for contagem_de_saltos in range(5):
+            distancia_salto = float(input(f'{contagem[contagem_de_saltos]} salto: '))
+            salto.append(distancia_salto)                   # Adiciona à lista de saltos a distancia do salto
+        for numero_salto in range(5):
+            if salto[numero_salto] > maior:
+                maior = salto[numero_salto]
+            if salto[numero_salto] < menor:
+                menor = salto[numero_salto]
+        salto.remove(maior)                                 # remove o maior salto da lista
+        salto.remove(menor)                                 # remove o menor salto da lista
         print()
-        print(f'Melhor salto: {maior:.1f} m')
-        print(f'Pior salto: {menor:.1f} m')
-        salto_do_atleta += sum(salto)
-        media = salto_do_atleta / 3
-        media_salto.append(media)
-        print(f'Média dos demais saltos: {media:.2f} m')
+        print(f'Melhor salto: {maior:.1f} m')               # imprime o maior salto
+        print(f'Pior salto: {menor:.1f} m')                 # imprime o menor salto
+        media = (sum(salto)) / 3                            # Calcula a média dos saltos sem o maior e o menor
+        media_salto.append(media)                           # adiciona a lista de media de saltos
+        print(f'Média dos demais saltos: {media:.2f} m')    # Imprime qual foi a média dos saltos do atleta
+
+        for valor in range(3):
+            saltos_dos_atletas.append(salto[valor])
 
     print()
-
-# valores_saltos = ' - '.join(map(str, salto))
 
 inicio = 0
 fim = 3
 
-for i in range(len(atleta)):
+for atleta in range(len(atletas)):                          # para cada atleta da lista de atletas
     print('Resultado final:')
-    print(f'Atleta: {atleta[i]}')
-    saltos_dos_atletas.clear()
-    # for i1 in range(len(salto))
-
-    for _ in range(inicio, fim):
-        saltos_dos_atletas.append(salto[_])
-
-    inicio += 5
-    fim += 5
-    valores_saltos = ' - '.join(map(str, saltos_dos_atletas))
+    print(f'Atleta: {atletas[atleta]}')                     # Imprime o nome do atleta
     print()
-    print(f'Saltos: {valores_saltos}')
-    print(f'Média dos saltos: {media_salto[i]:.2f} m')
+    print(f'Saltos: ', end=' ')
+    for i in range(3):
+        if i == 2:
+            print(saltos_dos_atletas[i + (atleta * 3)], end='')
+        else:
+            print(saltos_dos_atletas[i + (atleta * 3)], end=' - ')
+    print(f'\nMédia dos saltos: {media_salto[atleta]:.2f} m')
     print()
