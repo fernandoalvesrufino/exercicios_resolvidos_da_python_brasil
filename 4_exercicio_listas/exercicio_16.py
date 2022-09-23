@@ -1,4 +1,7 @@
-# Exercício 16 - Utilize uma lista para resolver o problema a seguir. Uma empresa paga seus vendedores com base em comissões. O vendedor recebe 200.00 por semana mais 9% de suas vendas brutas daquela semana. Por exemplo, um vendedor que teve vendas brutas de 3000.00 em uma semana recebe 200.00 mais 9% de 3000.00, ou seja, um total de 470.00. Escreva um programa (usando um array de contadores) que determine quantos vendedores receberam salários nos seguintes intervalos de valores:
+# Exercício 16 - Utilize uma lista para resolver o problema a seguir. Uma empresa paga seus vendedores com base em comissões. O vendedor recebe 200.00 
+# por semana mais 9% de suas vendas brutas daquela semana. Por exemplo, um vendedor que teve vendas brutas de 3000.00 em uma semana recebe 200.00 mais 
+# 9% de 3000.00, ou seja, um total de 470.00. Escreva um programa (usando um array de contadores) que determine quantos vendedores receberam salários nos 
+# seguintes intervalos de valores:
 
 # 200 - 299
 # 300 - 399
