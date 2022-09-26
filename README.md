@@ -5,7 +5,7 @@ Nesse repositório, irei colocar as resoluções dos exercícios da _Python Bras
 - [x] 1. [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
 - [x] 2. [Estrutura de Decisão](https://wiki.python.org.br/EstruturaDeDecisao)
 - [x] 3. [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao)
-- [ ] 4. [Exercícios de Listas](https://wiki.python.org.br/ExerciciosListas)
+- [x] 4. [Exercícios de Listas](https://wiki.python.org.br/ExerciciosListas)
 - [ ] 5. [Exercícios de Funções](https://wiki.python.org.br/ExerciciosFuncoes)
 - [ ] 6. [Exercícios com Strings](https://wiki.python.org.br/ExerciciosComStrings)
 - [ ] 7. [Exercícios de Arquivos](https://wiki.python.org.br/ExerciciosArquivos)
