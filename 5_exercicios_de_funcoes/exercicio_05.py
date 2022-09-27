@@ -5,7 +5,8 @@
 # A função “altera” o valor de custo para incluir o imposto sobre vendas.
 
 def somaImposto(taxaimposto, custo):
-  print(custo * (taxaimposto / 100))
+  return custo * (taxaimposto / 100)
 
 
 resultado = somaImposto(15, 2000)
+print(resultado)
