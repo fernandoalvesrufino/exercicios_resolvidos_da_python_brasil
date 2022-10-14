@@ -20,7 +20,7 @@ class Carro:
   def adicionarGasolina(self, quantidade):
     if (self.gasolina + quantidade) >= self.tamanho_tanque:
       self.gasolina = self.tamanho_tanque
-      print(f'Você não pode abastecer mais do que {self.tamanho_tanque} litros. Completado o tanque')
+      print(f'Você não pode abastecer mais do que {self.tamanho_tanque} litros. Completado o tanque.')
     else:
       self.gasolina += quantidade
 
