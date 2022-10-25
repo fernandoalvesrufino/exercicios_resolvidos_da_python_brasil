@@ -12,6 +12,7 @@ class Funcionario():
   def imprimirSalario(self):
     print(f'O salário de {self.nome} é R$ {self.salario:.2f}')
 
+    
 fernando = Funcionario('Fernando Rufino', 10000)
 fernando.imprimirNome()
 fernando.imprimirSalario()
