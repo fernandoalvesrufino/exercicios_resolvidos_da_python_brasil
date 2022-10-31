@@ -1,3 +1,7 @@
+<h4 align="center">
+<img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/construction_1f6a7.png" alt="obras" width="15"> Repositório em construção <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/construction_1f6a7.png" alt="obras" width="15">
+</h4>
+
 # Exercícios resolvidos da Python Brasil 
 
 Nesse repositório, irei colocar as resoluções dos exercícios da _Python Brasil_.
